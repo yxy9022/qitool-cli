@@ -1,0 +1,42 @@
+{
+  "name": "qitool-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for quick development",
+  "bin": {
+    "tool": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxy9022/qitool-cli.git"
+  },
+  "keywords": [
+    "tool",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxy9022/qitool-cli/issues"
+  },
+  "homepage": "https://github.com/yxy9022/qitool-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "cli-spinners": "^2.7.0",
+    "events": "^1.1.1",
+    "inquirer": "^8.2.5",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.8",
+    "ora": "^5.4.1",
+    "semver": "^7.3.8"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  }
+}
