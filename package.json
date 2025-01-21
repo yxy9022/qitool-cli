@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Command line interface for quick development",
   "bin": {
-    "tool": "bin/cli.js"
+    "qitool": "bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/yxy9022/qitool-cli.git"
   },
   "keywords": [
-    "tool",
+    "qitool",
     "cli"
   ],
   "author": "",
