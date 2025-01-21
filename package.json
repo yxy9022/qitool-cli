@@ -1,6 +1,6 @@
 {
   "name": "qitool-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Command line interface for quick development",
   "bin": {
     "qitool": "bin/cli.js"
@@ -27,10 +27,12 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^10.0.0",
     "cli-spinners": "^2.7.0",
+    "commander": "^10.0.0",
     "events": "^1.1.1",
+    "fflate": "^0.8.2",
     "inquirer": "^8.2.5",
+    "js-base64": "^3.7.7",
     "leven": "^3.1.0",
     "minimist": "^1.2.8",
     "ora": "^5.4.1",
